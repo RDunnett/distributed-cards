@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: georgia, serif;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -16,7 +16,7 @@ body {
 
 h1, h2 {
   margin: 0;
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
   color: #623b0c;
 }
 
@@ -46,7 +46,13 @@ a {
   text-decoration: none;
   color: #fff;
   padding-left: .5em;
-  height: 3rem;
-  justify: center;
+  height: 2rem;
+  justify-content: center;
   padding-top: .5em;
+}
+
+img {
+  padding-top: 1em;
+  width: 100%;
+  display: block;
 }
